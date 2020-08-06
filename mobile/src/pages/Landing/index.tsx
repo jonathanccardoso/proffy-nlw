@@ -28,20 +28,20 @@ function Landing() {
       </Text>
 
       <View style={styles.buttonsContainer}>
-        <ReactButton style={[styles.button, styles.buttonPrimary]}>
+        <RectButton style={[styles.button, styles.buttonPrimary]}>
           <Image source={studyIcon} />
 
           <Text style={styles.buttonText}>Estudar</Text>
-        </ReactButton>
+        </RectButton>
 
-        <ReactButton
+        <RectButton
           onPress={handleNavigateToGiveClassesPage}
           style={[styles.button, styles.buttonSecondary]}
         >
           <Image source={giveClassesIcon} />
 
           <Text style={styles.buttonText}>Dar aulas</Text>
-        </ReactButton>
+        </RectButton>
       </View>
 
       <Text style={styles.totalConnections}>
